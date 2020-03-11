@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raleway';
-    src: url(/fonts/Raleway_regular.ttf);
+    src: url(/fonts/Raleway\ regular.ttf);
 }
 
 .flex {
@@ -15,7 +15,6 @@
 .flex.justify-center {
     justify-content: center;
 }
-
 
 @media (min-width: 1440px) {
     .content {
