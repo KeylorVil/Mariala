@@ -57,7 +57,11 @@ nav > .nav-wrapper > ul > li > a:hover {
     margin-top: 85px;
 }
 
-.main > .cards .card > .card-content > .fas {
+.main > .cards .card > .card-content > .card-title {
+    font-family: 'Raleway 600';
+}
+
+.main > .cards .card > .card-content > .card-title > .fas {
     font-size: 30px;
 }
 
