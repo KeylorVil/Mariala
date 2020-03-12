@@ -78,14 +78,39 @@ nav>.nav-wrapper>ul>li>a:hover {
     background-color: #7b6c63;
 }
 
-.main>.ourBlog>.blog-card>.card-text {
-    width: 514px;
-    text-align: left;
+.main>.ourBlog>.blog-card>.card-text>p{
+    font-size: 16px;
 }
 
-.main>.ourBlog>.blog-card>.card-text.card-reverse {
-    width: 514px;
-    text-align: right;
+@media (min-width: 993px) {
+    .main>.ourBlog>.blog-card>.card-img>img {
+        max-width: 100%;
+    }
+
+    .main>.ourBlog>.blog-card.card-mobile {
+        display: none !important;
+    }
+
+    .main>.ourBlog>.blog-card>.card-text {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .main>.ourBlog>.blog-card>.card-text.card-reverse {
+        width: 514px;
+        text-align: right;
+    }
 }
+
+@media (max-width: 992px) {
+    .main>.ourBlog>.blog-card>.card-img>img {
+        max-width: 90%;
+    }
+    
+    .main>.ourBlog>.blog-card.card-desktop {
+        display: none !important;
+    }
+}
+
 
 /* end of main CSS */

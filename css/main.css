@@ -39,6 +39,12 @@
     }
 }
 
+@media (max-width: 993px) {
+    h1 {
+        font-size: 46px !important;
+    }
+}
+
 
 /* Flex */
 .flex.flex-col {
@@ -72,21 +78,33 @@
 /* End of Flex */
 
 /* Content padding */
-@media (min-width: 1440px) {
+@media (min-width: 1646px) {
     .content {
         padding: 0px 375px 0px 375px !important;
     }
 }
 
-@media (min-width: 1281px) and (max-width: 1439px) {
+@media (min-width: 1496px) and (max-width: 1645px) {
     .content {
         padding: 0px 300px 0px 300px !important;
     }
 }
 
-@media (min-width: 993px) and (max-width: 1280px) {
+@media (min-width: 1196px) and (max-width: 1496px) {
     .content {
         padding: 0px 150px 0px 150px !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1195px) {
+    .content {
+        padding: 0px 50px 0px 50px !important;
+    }
+}
+
+@media (max-width: 993px) {
+    .content {
+        padding: 0px 20px 0px 20px !important;
     }
 }
 
