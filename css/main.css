@@ -9,74 +9,100 @@
 }
 
 .upperCase {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
-/* Flex */
+.no-shadow {
+    box-shadow: none !important;
+}
+
+.w100 {
+    width: 100% !important;
+}
+
 @media (min-width: 993px) {
-    .flex-large.flex-row {
-        display: flex;
-        flex-direction: row;
+    h1 {
+        font-size: 66px !important;
     }
 
-    .flex-large.flex-col {
-        display: flex;
-        flex-direction: row;
+    h2 {
+        font-size: 40px !important;
+    }
+
+    h4 {
+        font-size: 24px !important;
+    }
+}
+
+
+/* Flex */
+.flex.flex-col {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.flex.align-items-center {
+    align-items: center !important;
+}
+
+@media (min-width: 993px) {
+    .flex-large.flex-row {
+        display: flex !important;
+        flex-direction: row !important;
     }
 
     .flex-large.justify-content-between {
-        justify-content: space-between;
+        justify-content: space-between !important;
     }
 
     .flex-large.align-items-center {
-        align-items: center;
+        align-items: center !important;
     }
-}
-
-@media (max-width: 993px) {
 }
 /* End of Flex */
 
 /* Content padding */
 @media (min-width: 1440px) {
     .content {
-        padding: 0px 375px 0px 375px;
+        padding: 0px 375px 0px 375px !important;
     }
 }
 
 @media (min-width: 1281px) and (max-width: 1439px) {
     .content {
-        padding: 0px 300px 0px 300px;
+        padding: 0px 300px 0px 300px !important;
     }
 }
 
 @media (min-width: 993px) and (max-width: 1280px) {
     .content {
-        padding: 0px 150px 0px 150px;
+        padding: 0px 150px 0px 150px !important;
     }
 }
 /* End of Content padding */
 
 /* Margins */
-.m0 {
-    margin: 0;
+.m-0 {
+    margin: 0 !important;
 }
 
 .ml-13 {
-    margin-left: 13px;
+    margin-left: 13px !important;
 }
 
 @media (min-width: 993px) {
-    .mt31-large {
-        margin-top: 30px;
+    .mt-31-large {
+        margin-top: 30px !important;
     }
-
-    .mt30-large {
-        margin-top: 30px;
-    }
-
-    .mt33-large {
-        margin-top: 33px;
+    
+    .mt-33-large {
+        margin-top: 33px !important;
     }
 }
 /* End of Margins */
+
+/* Paddings */
+.p-0 {
+    padding: 0px !important;
+}
+/* End of Paddings */
