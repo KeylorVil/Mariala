@@ -3,25 +3,46 @@ body {
 }
 
 nav {
+    height: 95px;
     background-color: #303030;
 }
 
-#bg {
-    background-color: rgb(0, 0, 0, 1);
+nav > .nav-wrapper > .brand-logo {
+    font-family: 'Oleo Script';
+    position: static;
 }
 
-.bg-text {
-    padding-top: 95px;
-    padding-bottom: 95px;
+nav > .nav-wrapper > ul > li > a {
+    font-size: 12px;
+    line-height: 36px;
 }
 
-.bg-text h1 {
+nav > .nav-wrapper > ul > li > a:hover {
+    background-color: transparent;
+    box-shadow: 0px 5px 0 #7b6c63;
+}
+
+.carousel {
+    height: 674px !important;
+}
+
+.carousel > .background-text {
+    bottom: 183px !important;
+}
+
+.carousel > .background-text h1 {
     font-size: 66px;
-    margin: 0px;
-    margin-top: 33px;
 }
 
-.bg-text h4 {
+.carousel > .background-text h4 {
     font-size: 24px;
-    margin: 0px;
+}
+
+.carousel > .background-text > .download-button {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 69px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.102);
+    padding: 23px 71px 23px 71px;
 }

@@ -1,21 +1,43 @@
 @font-face {
     font-family: 'Raleway';
-    src: url(/fonts/Raleway\ regular.ttf);
+    src: url(/fonts/Raleway/Raleway\ regular.ttf);
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
+@font-face {
+    font-family: 'Oleo Script';
+    src: url(/fonts/OleoScript/OleoScript-Regular.ttf);
 }
 
-.flex .flex-column {
-    flex-direction: column;
+.upperCase {
+    text-transform: uppercase;
 }
 
-.flex.justify-center {
-    justify-content: center;
+/* Flex */
+@media (min-width: 993px) {
+    .flex-large.flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-large.flex-col {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-large.justify-content-between {
+        justify-content: space-between;
+    }
+
+    .flex-large.align-items-center {
+        align-items: center;
+    }
 }
 
+@media (max-width: 993px) {
+}
+/* End of Flex */
+
+/* Content padding */
 @media (min-width: 1440px) {
     .content {
         padding: 0px 375px 0px 375px;
@@ -23,17 +45,38 @@
 }
 
 @media (min-width: 1281px) and (max-width: 1439px) {
-
     .content {
         padding: 0px 300px 0px 300px;
     }
-
 }
 
 @media (min-width: 993px) and (max-width: 1280px) {
-
     .content {
         padding: 0px 150px 0px 150px;
     }
-
 }
+/* End of Content padding */
+
+/* Margins */
+.m0 {
+    margin: 0;
+}
+
+.ml-13 {
+    margin-left: 13px;
+}
+
+@media (min-width: 993px) {
+    .mt31-large {
+        margin-top: 30px;
+    }
+
+    .mt30-large {
+        margin-top: 30px;
+    }
+
+    .mt33-large {
+        margin-top: 33px;
+    }
+}
+/* End of Margins */

@@ -20,10 +20,10 @@
     <header>
         <div class="navbar-fixed">
             <nav class="content">
-                <div class="nav-wrapper">
+                <div class="nav-wrapper flex-large flex-row justify-content-between align-items-center">
                     <a href="#" class="brand-logo">Mairala</a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></i></a>
-                    <ul class="right hide-on-med-and-down">
+                    <ul class="right hide-on-med-and-down upperCase">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Portfolios</a></li>
@@ -34,7 +34,7 @@
                 </div>
             </nav>
         </div>
-        <ul class="sidenav" id="mobile-demo">
+        <ul class="sidenav upperCase" id="mobile-demo">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Portfolios</a></li>
@@ -43,12 +43,12 @@
             <li><a href="#">Contact</a></li>
         </ul>
 
-        <div id="bg" class="carousel carousel-slider">
-            <div class="carousel-fixed-item white-text bg-text content">
-                <h4>Grab your copy of</h4>
-                <h1>The Premium quality</h1>
-                <h1>PSD template for free</h1>
-                <a href="#">download</a>
+        <div class="carousel carousel-slider">
+            <div class="carousel-fixed-item white-text content background-text upperCase">
+                <h4 class="m0">Grab your copy of</h4>
+                <h1 class="m0 mt33-large">The Premium quality</h1>
+                <h1 class="m0 mt31-large">PSD template for free</h1>
+                <a class="download-button white-text" href="#">download<i class="fas fa-download ml-13"></i></a>
             </div>
             <div class="carousel-item" href="#" style="background-image: url(/images/bg-1.png);"></div>
             <div class="carousel-item" href="#" style="background-image: url(/images/bg-2.png);"></div>
@@ -72,13 +72,12 @@
         const carouselInstances = M.Carousel.init(carousels, {
             fullWidth: true,
             indicators: false,
+            duration: 300,
         });
 
         setInterval(() => {
             carouselInstances[0].next();
         }, 5000);
-
-        document.querySelector('#bg').style.height = "674px";
     });
 </script>
 
