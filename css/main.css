@@ -37,11 +37,33 @@
     h4 {
         font-size: 24px !important;
     }
+
+    .display-large {
+        display: inline-block !important;
+    }
+
+    .display-small {
+        display: none !important;
+    }
 }
 
 @media (max-width: 993px) {
     h1 {
-        font-size: 46px !important;
+        font-size: 56px !important;
+    }
+
+    .display-large {
+        display: none !important;
+    }
+
+    .display-small {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px !important;
     }
 }
 
