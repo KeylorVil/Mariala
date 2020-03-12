@@ -99,30 +99,51 @@
         <div class="ourBlog w100 flex flex-col align-items-center">
             <h2 class="m-0">Our Blog</h2>
             <div class="h2border"></div>
-            <p class="mt-50">Nam liber tempor cum soluta nobis eleifend option <br> congue nihil imperdiet doming id quod mazim</p>   
+            <p class="mt-50">Nam liber tempor cum soluta nobis eleifend option <br> congue nihil imperdiet doming id
+                quod mazim</p>
+            <div class="w100 mt-90 blog-card flex-large flex-row justify-content-center">
+                <div class="card-img mr-80-large">
+                    <img src="/images/blog.png" alt="">
+                </div>
+                <div class="card-text">
+                    <p>10 April 2014</p>
+                    <h4>Typi non habent claritatem insitam</h4>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br> esse molestie consequat, vel
+                        illum dolore eu feugiat nulla <br> facilisis at vero eros et accumsan et iusto odio dignissim
+                        qui
+                        [...]</p>
+                </div>
+            </div>
+            <div class="w100 mt-60 blog-card flex-large flex-row justify-content-center">
+                <div class="card-text card-reverse mr-80-large">
+                    <p>20 March 2014</p>
+                    <h4>Typi non habent claritatem insitam</h4>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br> esse molestie consequat, vel
+                        illum dolore eu feugiat nulla <br> facilisis at vero eros et accumsan et iusto odio dignissim
+                        qui
+                        [...]</p>
+                </div>
+                <div class="card-img">
+                    <img src="/images/blog.png" alt="">
+                </div>
+            </div>
+            <div class="w100 mt-60 blog-card flex-large flex-row justify-content-center">
+                <div class="card-img mr-80-large">
+                    <img src="/images/blog.png" alt="">
+                </div>
+                <div class="card-text">
+                    <p>10 January 2014</p>
+                    <h4>Typi non habent claritatem insitam</h4>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br> esse molestie consequat, vel
+                        illum dolore eu feugiat nulla <br> facilisis at vero eros et accumsan et iusto odio dignissim
+                        qui
+                        [...]</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const dropdowns = document.querySelectorAll('.dropdown-trigger');
-        const dropInstances = M.Dropdown.init(dropdowns, {});
-
-        const sidenavs = document.querySelectorAll('.sidenav');
-        const sidenavInstances = M.Sidenav.init(sidenavs, {});
-
-        const carousels = document.querySelectorAll('.carousel');
-        const carouselInstances = M.Carousel.init(carousels, {
-            fullWidth: true,
-            indicators: false,
-            duration: 300,
-        });
-
-        setInterval(() => {
-            carouselInstances[0].next();
-        }, 5000);
-    });
-</script>
 
 </html>

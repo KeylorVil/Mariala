@@ -8,20 +8,21 @@ nav {
     background-color: #303030;
 }
 
-nav > .nav-wrapper > .brand-logo {
+nav>.nav-wrapper>.brand-logo {
     font-family: 'Oleo Script';
     position: static;
 }
 
-nav > .nav-wrapper > ul > li > a {
+nav>.nav-wrapper>ul>li>a {
     font-size: 12px;
     line-height: 36px;
 }
 
-nav > .nav-wrapper > ul > li > a:hover {
+nav>.nav-wrapper>ul>li>a:hover {
     background-color: transparent;
     box-shadow: 0px 5px 0 #7b6c63;
 }
+
 /* end of nav CSS */
 
 /* carousel CSS */
@@ -29,11 +30,11 @@ nav > .nav-wrapper > ul > li > a:hover {
     height: 674px !important;
 }
 
-.carousel > .background-text {
+.carousel>.background-text {
     bottom: 183px !important;
 }
 
-.carousel > .background-text > .download-button {
+.carousel>.background-text>.download-button {
     font-size: 16px;
     display: inline-block;
     margin-top: 69px;
@@ -41,6 +42,7 @@ nav > .nav-wrapper > ul > li > a:hover {
     background-color: rgba(255, 255, 255, 0.102);
     padding: 23px 71px 23px 71px;
 }
+
 /* end of carousel CSS */
 
 /* main CSS */
@@ -49,30 +51,41 @@ nav > .nav-wrapper > ul > li > a:hover {
     color: #7b6c63;
 }
 
-.main > .top {
+.main>.top {
     margin-top: 90px;
 }
 
-.main > .cards {
+.main>.cards {
     margin-top: 85px;
 }
 
-.main > .cards .card > .card-content > .card-title {
+.main>.cards .card>.card-content>.card-title {
     font-family: 'Raleway 600';
 }
 
-.main > .cards .card > .card-content > .card-title > .fas {
+.main>.cards .card>.card-content>.card-title>.fas {
     font-size: 30px;
 }
 
-.main > .ourBlog {
+.main>.ourBlog {
     margin-top: 130px;
 }
 
-.main > .ourBlog > .h2border {
+.main>.ourBlog>.h2border {
     width: 76px;
     height: 6px;
     margin-top: 50px;
     background-color: #7b6c63;
 }
+
+.main>.ourBlog>.blog-card>.card-text {
+    width: 514px;
+    text-align: left;
+}
+
+.main>.ourBlog>.blog-card>.card-text.card-reverse {
+    width: 514px;
+    text-align: right;
+}
+
 /* end of main CSS */

@@ -56,6 +56,10 @@
         flex-direction: row !important;
     }
 
+    .flex-large.justify-content-center {
+        justify-content: center !important;
+    }
+
     .flex-large.justify-content-between {
         justify-content: space-between !important;
     }
@@ -64,6 +68,7 @@
         align-items: center !important;
     }
 }
+
 /* End of Flex */
 
 /* Content padding */
@@ -84,6 +89,7 @@
         padding: 0px 150px 0px 150px !important;
     }
 }
+
 /* End of Content padding */
 
 /* Margins */
@@ -99,6 +105,14 @@
     margin-top: 50px !important;
 }
 
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mt-90 {
+    margin-top: 90px !important;
+}
+
 .ml-13 {
     margin-left: 13px !important;
 }
@@ -111,15 +125,21 @@
     .mt-31-large {
         margin-top: 30px !important;
     }
-    
+
     .mt-33-large {
         margin-top: 33px !important;
     }
+
+    .mr-80-large {
+        margin-right: 80px !important;
+    }
 }
+
 /* End of Margins */
 
 /* Paddings */
 .p-0 {
     padding: 0px !important;
 }
+
 /* End of Paddings */
