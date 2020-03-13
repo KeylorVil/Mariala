@@ -71,7 +71,6 @@
     }
 }
 
-
 /* Flex */
 .flex.flex-col {
     display: flex !important;
@@ -98,6 +97,13 @@
 
     .flex-large.align-items-center {
         align-items: center !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .flex-small.flex-col-reverse {
+        display: flex !important;
+        flex-direction: column-reverse !important;
     }
 }
 

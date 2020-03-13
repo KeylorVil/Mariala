@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway';
+    font-size: 16px;
 }
 
 /* nav CSS */
@@ -112,7 +113,7 @@ nav>.nav-wrapper>ul>li>a:hover {
 
 /* main CSS */
 
-.main {
+.main, .form {
     color: #7b6c63;
 }
 
@@ -132,8 +133,16 @@ nav>.nav-wrapper>ul>li>a:hover {
     font-size: 30px;
 }
 
+.main>.cards .card>.card-content>p {
+    color: #949494;
+}
+
 .main>.ourBlog {
     margin-top: 130px;
+}
+
+.main>.ourBlog>h2 {
+    font-family: 'Raleway 600';
 }
 
 .main>.ourBlog>.h2border {
@@ -143,8 +152,13 @@ nav>.nav-wrapper>ul>li>a:hover {
     background-color: #7b6c63;
 }
 
+.main>.ourBlog>.blog-card>.card-text>h4 {
+    color: #212121;
+}
+
 .main>.ourBlog>.blog-card>.card-text>p{
     font-size: 16px;
+    color: #949494;
 }
 
 @media (min-width: 993px) {
@@ -179,8 +193,44 @@ nav>.nav-wrapper>ul>li>a:hover {
 /* end of main CSS */
 
 /* form CSS */
-.form .line {
+.form {
+    background-color: #f5f5f5;
+    padding: 90px 20px 90px 20px;
+    margin-top: 200px;  
+}
+
+.form>h2 {
+    font-family: 'Raleway 600';
+}
+
+.form>form>.line {
     height: 1px;
     background-color: #7b6c63;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-top: 118px;
+}
+
+.form>form .row {
+    text-align: left;
+    max-width: 770px;
+    color: #5b5b5b;
+}
+
+.form>form input {
+    border-bottom: 4px solid #242424 !important;
+}
+
+.form>form>.submit-button {
+    font-family: 'Raleway 600';
+    outline: 2px solid #000000;
+    padding: 14px 52px 14px 52px;
+    font-size: 18px;
 }
 /* end of form CSS */
+
+/* footer CSS */
+.footer {
+    background-color: #222222;
+}
+/* end of footer CSS */

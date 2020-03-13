@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- Nav -->
     <div class="navbar-fixed">
         <nav class="content">
             <div class="nav-wrapper flex-large flex-row justify-content-between align-items-center">
@@ -33,6 +34,8 @@
             </div>
         </nav>
     </div>
+    <!-- end of nav -->
+    <!-- Mobile nav -->
     <ul class="sidenav upperCase" id="mobile-demo">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -41,20 +44,25 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
+    <!-- end of mobile nav -->
 
+    <!-- Carousel slider -->
     <div class="carousel carousel-slider">
         <div class="carousel-fixed-item white-text content background-text upperCase">
             <h4 class="m-0">Grab your copy of</h4>
             <h1 class="m-0 mt-33-large">The Premium quality</h1>
             <h1 class="m-0 mt-31-large">PSD template for free</h1>
-            <a class="download-button white-text" href="#">download<i class="fas fa-download ml-13"></i></a>
+            <a class="waves-effect waves-light download-button white-text" href="#">download<i class="fas fa-download ml-13"></i></a>
         </div>
         <div class="carousel-item bg-1"></div>
         <div class="carousel-item bg-2"></div>
         <div class="carousel-item bg-3"></div>
     </div>
+    <!-- end of carousel slider -->
 
+    <!-- Main section -->
     <div class="main content center">
+        <!-- Main copy -->
         <div class="top">
             <h4 class="upperCase">Services we provide</h4>
             <p>Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
@@ -62,7 +70,9 @@
                 esse molestie consequat, vel illum dolore eu <br> feugiat nulla facilisis at vero eros et accumsan et
                 iusto odio dignissim qui blandit praesent</p>
         </div>
+        <!-- end of main copy -->
 
+        <!-- Small Cards -->
         <div class="cards row">
             <div class="col s12 m4">
                 <div class="card white m-0 no-shadow">
@@ -95,7 +105,9 @@
                 </div>
             </div>
         </div>
+        <!-- End of small cards -->
 
+        <!-- Our blog -->
         <div class="ourBlog w100 flex flex-col align-items-center">
             <h2 class="m-0">Our Blog</h2>
             <div class="h2border"></div>
@@ -116,12 +128,13 @@
                         [...]</p>
                 </div>
             </div>
-            <div class="w100 mt-60 blog-card card-desktop flex-large flex-row justify-content-center">
+            <!-- Reversed card -->
+            <div class="w100 mt-60 blog-card flex-large flex-row justify-content-center flex-small flex-col-reverse">
                 <div class="card-text card-reverse mr-80-large">
                     <p>20 March 2014</p>
                     <h4>Typi non habent claritatem insitam</h4>
-                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br> esse molestie consequat, vel
-                        illum dolore eu feugiat nulla <br> facilisis at vero eros et accumsan et iusto odio dignissim
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br class="display-large"> esse molestie consequat, vel
+                        illum dolore eu feugiat nulla <br class="display-large"> facilisis at vero eros et accumsan et iusto odio dignissim
                         qui
                         [...]</p>
                 </div>
@@ -129,21 +142,7 @@
                     <img src="/images/blog.png" alt="blog">
                 </div>
             </div>
-            <div class="w100 mt-60 blog-card card-mobile flex-large flex-row justify-content-center">
-                <div class="card-img">
-                    <img src="/images/blog.png" alt="blog">
-                </div>
-                <div class="card-text">
-                    <p>20 March 2014</p>
-                    <h4>Typi non habent claritatem insitam</h4>
-                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br class="display-large"> esse
-                        molestie consequat, vel
-                        illum dolore eu feugiat nulla <br class="display-large"> facilisis at vero eros et accumsan et
-                        iusto odio dignissim
-                        qui
-                        [...]</p>
-                </div>
-            </div>
+            <!--  -->
             <div class="w100 mt-60 blog-card flex-large flex-row justify-content-center">
                 <div class="card-img mr-80-large">
                     <img src="/images/blog.png" alt="blog">
@@ -160,35 +159,41 @@
                 </div>
             </div>
         </div>
+        <!-- End of Our Blog -->
     </div>
+    <!-- End of main content  -->
 
-    <div class="content form">
-        <h2 class="upperCase">Contact</h2>
+    <!-- Form -->
+    <div class="form flex flex-col align-items-center">
+        <h2 class="upperCase m-0">Contact</h2>
         <form class="w100 center">
             <div class="row">
-                <div class="input-field col s6">
-                    <input placeholder="Placeholder" type="text" class="validate">
-                    <label for="first_name">Name</label>
+                <div class="p-0 m-0 input-field col s12 m6">
+                    <input type="text">
+                    <span>Name*</span>
                 </div>
-                <div class="input-field col s6">
-                    <input type="email" class="validate">
-                    <label for="last_name">Email</label>
+                <div class="p-0 m-0 input-field col s12 m6">
+                    <input type="email">
+                    <span>Email*</span>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s12">
-                    <input type="text" class="validate">
-                    <label for="password">Message</label>
+                <div class="p-0 m-0 input-field col s12">
+                    <input type="text">
+                    <span>Message...</span>
                 </div>
             </div>
             <div class="w100 line"></div>
-            <a class="waves-effect waves-light btn">button</a>
+            <a class="mt-30 waves-effect submit-button black-text">Submit</a>
         </form>
     </div>
+    <!-- End of Form -->
 
-    <div class="footer">
-        
+    <!-- Footer -->
+    <div class="footer content">
+
     </div>
+    <!-- End of footer -->
 
     <script src="js/script.js"></script>
 </body>
