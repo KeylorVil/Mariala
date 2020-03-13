@@ -162,7 +162,6 @@ nav>.nav-wrapper>ul>li>a:hover {
     }
 
     .main>.ourBlog>.blog-card>.card-text.card-reverse {
-        width: 514px;
         text-align: right;
     }
 }
@@ -177,5 +176,11 @@ nav>.nav-wrapper>ul>li>a:hover {
     }
 }
 
-
 /* end of main CSS */
+
+/* form CSS */
+.form .line {
+    height: 1px;
+    background-color: #7b6c63;
+}
+/* end of form CSS */

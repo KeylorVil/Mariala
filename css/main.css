@@ -25,6 +25,10 @@
     width: 100% !important;
 }
 
+.h100 {
+    height: 100% !important;
+}
+
 @media (min-width: 993px) {
     h1 {
         font-size: 66px !important;
