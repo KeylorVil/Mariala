@@ -269,6 +269,14 @@ footer>.footer .subline {
     background-color: #393939;
 }
 
+footer>.footer ul li {
+    font-size: 14px;
+}
+
+footer>.footer ul li .fas {
+    margin-right: 10px;
+}
+
 footer>.copyright {
     background-color: #1c1c1c;
     height: 70px;
